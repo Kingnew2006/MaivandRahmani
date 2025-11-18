@@ -196,7 +196,7 @@ erDiagram
     H --> I[Конец]
 ```
 ## 2. Диаграмма последовательности
-```memraid
+```mermaid
 sequenceDiagram
     title Процесс доставки еды
     participant Client as Клиент
@@ -250,7 +250,7 @@ classDiagram
     Courier "1" --o "*" Order : доставляет
 ```
 ## 4. ER-диаграмма базы данных
-```mermiad
+```mermaid
 erDiagram
     USERS {
         int id PK
